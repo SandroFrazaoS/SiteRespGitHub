@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <br>
+  Site de Chamados
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+   Desenvolvido com React + NodeJS + API do GitHub 
+</h4>
 
-## Available Scripts
+<h6 align="center">
+  bootcamp SujeitoProgramador
+</h6>
 
-In the project directory, you can run:
+<br/>
 
-### `yarn start`
+<p align="center">
+  <a href="#Pre-Requisitos">Pre-requisitos</a> |
+  <a href="#Instalação">Instalação</a> |
+  <a href="#Usabilidade">Usabildiade</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Pre-Requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [React](https://pt-br.reactjs.org/)
+* [Node.JS](https://nodejs.org/)
+* [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/get-npm)
+* [API GitHub](https://api.github.com/)
 
-### `yarn test`
+# Instalação
+```
+# Primeiro clone o repositorio do Git para seu computador. Execute o comando; 
+git clone https://github.com/SandroFrazaoS/SiteRespGitHub.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Acesse a pasta criado atraves do comando; 
+cd SiteRespGitHub
 
-### `yarn build`
+# Instale todas as dependencias do projeto, acesse a pasta SiteRespGitHub e execute o comando;
+yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Para start do site execute dentro da pasta SiteRespGitHub o comando;
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Usabilidade
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Criei um projeto utilizando framework React que consume uma API do GitHub de repositório. 
+Neste projetos eu consigo salvar meus repositório favoritos, visualizar os detalhes do repositório, consultar por status e deletar na lista de favoritos
 
-### `yarn eject`
+Tela de principal.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![1][tela1]
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tela detalhes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![2][tela2]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[tela1]: Tela1.png
+[tela2]: Tela2.png
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
